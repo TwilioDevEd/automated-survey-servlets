@@ -1,5 +1,5 @@
 # Automated Survey Servlets
-[![Build Status](https://travis-ci.org/TwilioDevEd/automated-survey-servlets.svg?branch=master)](https://travis-ci.org/TwilioDevEd/automated-survey-servlets)
+[![Java Servlet CI](https://github.com/TwilioDevEd/automated-survey-servlets/actions/workflows/gradle.yml/badge.svg)](https://github.com/TwilioDevEd/automated-survey-servlets/actions/workflows/gradle.yml)
 
 An application example implementing Click to Call using Twilio.
 An application example that implements an Automated Survey using Twilio.
