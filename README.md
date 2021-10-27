@@ -7,20 +7,18 @@ An application example that implements an Automated Survey using Twilio.
 ## Run the application
 
 1. Clone the repository and `cd` into it.
+   ```bash
+    git clone git@github.com:TwilioDevEd/automated-survey-servlets.git
+    cd automated-survey-servlets
+    ```
 
 1. The application uses Gradle to manage dependencies.
 
-1. Edit the sample configuration file `.env.example` and edit it to match your configuration.
-
-   Once you have edited the `.env.example` file, if you are using a unix operating system,
-   just use the `source` command to load the variables into your environment:
-
-   ```bash
-   $ source .env.example
-   ```
-
-   If you are using a different operating system, make sure that all the
-   variables from the .env.example file are loaded into your environment.
+1. Set your environment variables
+    ```bash
+    cp .env.example .env
+    ```
+   No variables needed in this project
 
 1. Configure Twilio to call your webhooks.
 
@@ -38,7 +36,7 @@ An application example that implements an Automated Survey using Twilio.
 1. Run the application using Gradle Gretty plugin.
 
    ```bash
-   $ ./gradlew appRun
+   ./gradlew appRun
    ```
 
    This will run the embedded Jetty application server that uses port 8080.
@@ -46,7 +44,7 @@ An application example that implements an Automated Survey using Twilio.
 1. Expose the application to the wider Internet using [ngrok](https://ngrok.com/).
 
    ```bash
-   $ ngrok http 8080
+   ngrok http 8080
    ```
 
    Once you have started ngrok, update your Twilio's number SMS and voice URL
@@ -54,7 +52,7 @@ An application example that implements an Automated Survey using Twilio.
    this:
 
    ```
-   http://<your-ngrok-subdomaon/automated-survey-servlets/survey
+   http://<your-ngrok-subdomaon/survey
    ```
 
 ### Dependencies
@@ -68,7 +66,7 @@ This application uses this Twilio helper library.
 Run at the top-level directory.
 
 ```bash
-$ ./gradlew test
+./gradlew test
 ```
 
 ## Meta
