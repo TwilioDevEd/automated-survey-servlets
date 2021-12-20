@@ -33,7 +33,7 @@ dependencies {
   compile 'org.xerial:sqlite-jdbc:3.8.11.2'
 
   compile 'com.google.inject.extensions:guice-persist:4.0'
-  compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.7.5'
+  compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.1'
 
   gretty 'ch.qos.logback:logback-classic:1.2.2'
   gretty 'ch.qos.logback:logback-access:1.2.2'
