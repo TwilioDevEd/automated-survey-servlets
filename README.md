@@ -31,7 +31,7 @@ An application example that implements an Automated Survey using Twilio.
    [the number management page](//www.twilio.com/user/account/phone-numbers/incoming)
    and open a number's configuration by clicking on it.
 
-   ![Configure Voice](http://howtodocs.s3.amazonaws.com/twilio-number-config-all-med.gif)
+   [Learn how to configure a Twilio phone number for Programmable Voice](https://www.twilio.com/docs/voice/tutorials/how-to-respond-to-incoming-phone-calls-python#buy-and-configure-a-phone-number)
 
 1. Run the application using Gradle Gretty plugin.
 
