@@ -20,7 +20,7 @@ dependencies {
   providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
 
   compile 'ch.qos.logback:logback-classic:1.2.2'
-  compile 'ch.qos.logback:logback-access:1.2.2'
+  compile 'ch.qos.logback:logback-access:1.4.8'
 
   compile 'org.slf4j:slf4j-api:1.7.21'
   compile 'org.slf4j:slf4j-simple:1.7.21'
@@ -36,7 +36,7 @@ dependencies {
   compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.7.5'
 
   gretty 'ch.qos.logback:logback-classic:1.2.2'
-  gretty 'ch.qos.logback:logback-access:1.2.2'
+  gretty 'ch.qos.logback:logback-access:1.4.8'
 
   testCompile 'junit:junit:4.12'
   testCompile 'org.mockito:mockito-core:1.10.19'
